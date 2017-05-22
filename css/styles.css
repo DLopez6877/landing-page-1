@@ -1,0 +1,109 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: arial;
+  text-transform: uppercase;
+}
+
+.header {
+  background-image: url(../img/fields.jpg);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 97%, 51% 97%, 50% 100%, 49% 97%, 0 97%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 600px;
+}
+
+.logo-head {
+  float: left;
+  margin-bottom: 100px;
+}
+
+#logo {
+  height: 70px;
+  padding-top: 10px;
+  padding-left: 40px;
+  vertical-align: middle;
+}
+
+.header h1, .right-nav h2 {
+  display: inline-block;
+  font-weight: 300;
+}
+
+h1 {
+  margin: 0;
+  vertical-align: bottom;
+  padding-left: 10px;
+}
+
+h3 {
+  clear: both;
+  text-align: center;
+  margin: 5px;
+}
+
+#upper {
+  font-size: 3.5em;
+  font-weight: 400;
+}
+
+#lower {
+  font-size: 7.5em;
+  font-weight: 400;
+}
+
+.right-nav {
+  float: right;
+  margin: 20px 40px;
+}
+
+.right-nav h2 {
+  margin-right: 10px;
+  font-size: 1em;
+}
+
+hr {
+  width: 80%;
+}
+
+.start {
+  position: relative;
+  margin-top: 60px;
+}
+
+a {
+  position: absolute;
+  background: #e78a71;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.start p {
+  position: absolute;
+  text-decoration: none;
+  left: 50%;
+  top: 60px;
+  transform: translate(-50%, 0);
+  font-style: italic;
+  font-family: fantasy;
+  text-transform: lowercase;
+}
+
+.cards {
+  width: 30%;
+  margin: 1.667%;
+  text-align: center;
+  float: left;
+}
